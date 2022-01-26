@@ -10,7 +10,7 @@ declare let MarvinJSUtil: MarvinJSUtilInstance;
 
 @Component({
   selector: 'app-marvin-js-editor',
-  template: '<iframe id="sketch" src="/assets/marvin-js/editor.html" height="100%" width="100%"></iframe>',
+  template: '<iframe id="sketch" src="/assets/marvin-js/editor.html" height="100%" width="100%" style="border: 0; padding: 0; margin: 0"></iframe>',
   providers: [
     {
       provide: NG_VALUE_ACCESSOR,

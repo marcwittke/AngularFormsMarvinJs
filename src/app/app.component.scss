@@ -1,11 +1,21 @@
 :host {
   display: grid;
   height: 100vh;
-  max-height: 100vh;
   grid-gap: 5px;
   grid-template-columns: 1fr 1fr;
 }
 
 form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.values {
+  overflow: scroll;
+}
+
+.marvin-js {
   flex-grow: 1;
 }
+
