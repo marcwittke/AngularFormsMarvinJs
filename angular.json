@@ -36,7 +36,6 @@
               }
             ],
             "styles": [
-              "node_modules/@chemaxon/marvinjs/gui/css/editor.css",
               "src/styles.scss"
             ],
             "scripts": [
@@ -114,7 +113,6 @@
               }
             ],
             "styles": [
-              "node_modules/@chemaxon/marvinjs/gui/css/editor.css",
               "src/styles.scss"
             ],
             "scripts": [
