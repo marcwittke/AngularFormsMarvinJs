@@ -26,8 +26,9 @@ https://github.com/marcwittke/AngularFormsMarvinJs/blob/a6d84bdbf11ad2c7b25df462
 ### Stuff the MarvinJS iframe into an Angular Component
 See https://github.com/marcwittke/AngularFormsMarvinJs/blob/master/src/app/marvin-js/marvin-js-editor.component.ts
 
-Note, that this component implements `ControlValueAccessor`. Details on how this is done can be found at [angular-university](https://blog.angular-university.io/angular-custom-form-controls/).
+The template consists only of the iframe that loads `editor.html`. Also note, that this component implements `ControlValueAccessor`. Details on how this is done can be found at [angular-university](https://blog.angular-university.io/angular-custom-form-controls/).
 
 ### Integrate the `MarvinJsEditorComponent` into a form
+This is straight forward how angular forms are working. Think of MarvinJS just as a input textbox on steroids that manipulates your structure string value with a little bit more knowledge about the semantics of this specific string.
 See https://github.com/marcwittke/AngularFormsMarvinJs/blob/master/src/app/app.component.html
 and https://github.com/marcwittke/AngularFormsMarvinJs/blob/master/src/app/app.component.ts
