@@ -1,0 +1,11 @@
+:host {
+  display: grid;
+  height: 100vh;
+  max-height: 100vh;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr;
+}
+
+form {
+  flex-grow: 1;
+}

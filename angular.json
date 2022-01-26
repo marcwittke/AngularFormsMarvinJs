@@ -28,12 +28,22 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "node_modules/@chemaxon/marvinjs",
+                "output": "./assets/marvin-js"
+              }
             ],
             "styles": [
+              "node_modules/@chemaxon/marvinjs/gui/css/editor.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/@chemaxon/marvinjs/gui/lib/promise-1.0.0.min.js",
+              "node_modules/@chemaxon/marvinjs/js/marvinjslauncher.js",
+              "node_modules/@chemaxon/marvinjs/js/util.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -96,12 +106,22 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "node_modules/@chemaxon/marvinjs",
+                "output": "./assets/marvin-js"
+              }
             ],
             "styles": [
+              "node_modules/@chemaxon/marvinjs/gui/css/editor.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/@chemaxon/marvinjs/gui/lib/promise-1.0.0.min.js",
+              "node_modules/@chemaxon/marvinjs/js/marvinjslauncher.js",
+              "node_modules/@chemaxon/marvinjs/js/util.js"
+            ]
           }
         }
       }
