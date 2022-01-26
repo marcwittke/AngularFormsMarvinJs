@@ -1,4 +1,5 @@
 # ChemAxon's MarvinJS integrated into Angular Forms
+![marvinjsangular](https://user-images.githubusercontent.com/4075651/151230720-83c44bca-0d30-4436-98c4-13090e88e6c2.gif)
 
 ### Changes to `package.json`
 Add MarvinJs package from Chemaxon
