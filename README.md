@@ -30,5 +30,7 @@ The template consists only of the iframe that loads `editor.html`. Also note, th
 
 ### Integrate the `MarvinJsEditorComponent` into a form
 This is straight forward how angular forms are working. Think of MarvinJS just as a input textbox on steroids that manipulates your structure string value with a little bit more knowledge about the semantics of this specific string.
+
 See https://github.com/marcwittke/AngularFormsMarvinJs/blob/master/src/app/app.component.html
+
 and https://github.com/marcwittke/AngularFormsMarvinJs/blob/master/src/app/app.component.ts
