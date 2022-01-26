@@ -9,6 +9,17 @@ form {
   height: 100%;
   display: flex;
   flex-direction: column;
+  > * {
+    padding: 10px;
+  }
+}
+
+.buttons {
+  text-align: center;
+}
+
+input {
+  margin: 5px;
 }
 
 .values {
